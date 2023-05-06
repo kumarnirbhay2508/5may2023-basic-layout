@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+main{
+    width: 100%;
+    min-height: 1200px;
+    border: 1px solid black;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+#leftAside{
+    width: 25%;
+    min-height: 1200px;
+    border: 1px dashed red;
+    float: left;
+}
+section{
+    width: 50%;
+    min-height: 1200px;
+    border: 1px solid black;
+    float: left;
+}
+#rightAside{
+    width: 24.68%;
+    min-height: 1200px;
+    border: 1px dashed red;
+    float: left;
+}
+nav>ul>li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
